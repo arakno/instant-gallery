@@ -1,12 +1,12 @@
-============================================
-# Instant Gallery - a simple dynamic gallery to showcase your projects
-## Installation and usage instructions
-
 https://github.com/arakno/instant-gallery
-============================================
 
 ------------
-1. Installation
+# Instant Gallery - a simple dynamic gallery to showcase your projects
+------------
+
+## Installation and usage instructions
+------------
+### Installation
 ------------
 - Unpack the files, and copy them to your server, for example to `/home/youruser/public_html/instant-gallery/`.
 - The folder `portfolio` is where you should create your directories and throw your images in it. The PHP script will take care of creating a navigation tab for each folder from the folder name, so keep that in mind when naming your folders.
@@ -18,7 +18,7 @@ https://github.com/arakno/instant-gallery
                 /catgZ
 ```
 ------------
-2. Configuration
+### Configuration
 ------------
 - Image thumbnails are generated into the "cache" folder(duh!). You can configure the thumbnails proportions in index.php
 ```
