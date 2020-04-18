@@ -46,19 +46,18 @@ define("PS",PATH_SEPARATOR);
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Portfolio :: Paulo Basto - Frontend Developer</title>
   <meta name="description" content="Portfolio Paulo Basto">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="apple-touch-fullscreen" content="yes" />
   <meta name="generator" content="sublimeText2" />
   <meta name="author" content="pbasto" />
   <meta name="robots" content="index,follow" />
   <meta name='copyright' content='Copyright &#169; <?php echo $year . WWW; ?>' />
-
   <link rel="shortcut icon" href="favicon.gif" />
-<link rel="shorcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="shorcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/styles.css">
 
-  <link rel="stylesheet" href="css/827d172.css">
-
-<script src="js/modernizr.custom.js"></script>
+  <script src="js/modernizr.custom.js"></script>
 
   <body>
     <div id="wrap">

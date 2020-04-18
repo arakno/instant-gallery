@@ -7,15 +7,13 @@ Source URL: http://www.bitrepository.com/resize-an-image-keeping-its-aspect-rati
 
 ---------------------------------------------------------------------*/
 
+class Thumbs {
 
-class Thumbs{
+	var $source_image_path;
+	var $thumbnail_image_path;
 
-var $source_image_path;
-
-var $thumbnail_image_path;
-
-function generate_thumbs(){
-                                                                                     
+	function generate_thumbs() {
+																																											
 		list($source_image_width, $source_image_height, $source_image_type) = getimagesize($this->source_image_path);
 
 		switch ( $source_image_type ) {
@@ -54,7 +52,7 @@ function generate_thumbs(){
 		$thumbnail_gd_image = imagecreatetruecolor($thumbnail_image_width, $thumbnail_image_height);
 
 		imagecopyresampled($thumbnail_gd_image, $source_gd_image, 0, 0, 0, 0, $thumbnail_image_width, $thumbnail_image_height, $source_image_width, $source_image_height);
-                                 
+																
 		imagejpeg($thumbnail_gd_image, $this->thumbnail_image_path, 90);
 
 		imagedestroy($source_gd_image);
@@ -62,7 +60,7 @@ function generate_thumbs(){
 		imagedestroy($thumbnail_gd_image);
 
 		return true;           
-		
+			
 		}
 	}
 ?>
