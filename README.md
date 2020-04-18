@@ -31,16 +31,16 @@ define( 'THUMBNAIL_IMAGE_MAX_HEIGHT', 104 );
 ------------
 Changes from version 0.5
 ------------
-++ Fixed mobile viewport
-++ Improve documentation
--- cleanup
+- Fixed mobile viewport
+- Improve documentation
+- cleanup
 
 ------------
 Changes from version 0.4
 ------------
 
-++ added quickconcat to streamline http requests
-++ improved CSS3 animations and design
-++ added drag'n'drop functionality to photos so you can play around
-++ responsive layout
--- removed buggy drag'n'drop upload functionality. I am working on a better solution
+- added quickconcat to streamline http requests
+- improved CSS3 animations and design
+- added drag'n'drop functionality to photos so you can play around
+- responsive layout
+- removed buggy drag'n'drop upload functionality. I am working on a better solution
