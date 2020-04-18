@@ -113,7 +113,6 @@ define("PS",PATH_SEPARATOR);
 
               <section>
 
-
                 <?php
 //SCATTER THUMBS ON CANVAS
 
